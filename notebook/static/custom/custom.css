@@ -83,3 +83,17 @@ body > #header .header-bar {
   position: relative;
   top: 19px;
 }
+
+/* Hide menu items that don't work with our integration */
+#new_notebook,
+#open_notebook,
+#copy_notebook,
+#rename_notebook,
+#save_checkpoint,
+#restore_checkpoint,
+#trust_notebook,
+#kill_and_exit,
+#toggle_header,
+#file_menu .divider {
+  display: none;
+}
