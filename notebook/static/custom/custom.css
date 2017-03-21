@@ -73,6 +73,10 @@ body > #header .header-bar {
   display: none;
 }
 
+li#download_ipynb, li#download_pdf, li#download_markdown, li#download_rst {
+  display: none;
+}
+
 #kernel_indicator {
   zposition: absolute;
   zright: 0;
